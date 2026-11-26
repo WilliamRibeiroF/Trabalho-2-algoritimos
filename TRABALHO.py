@@ -58,3 +58,4 @@ while escolha != 6:
             print("Programa encerrado")
         case _:
             print("Opção inválida, tente novamente")
+# fim do coigo
