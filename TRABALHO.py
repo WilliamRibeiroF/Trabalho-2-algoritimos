@@ -1,3 +1,5 @@
+#vetor
+
 estoque = []
 
 escolha = -1
@@ -12,7 +14,8 @@ while escolha != 6:
     print("6 - Sair") 
  
     escolha = int(input("Informe a operação desejada (1 - 6): "))
-    
+
+    #inicio do match case
     match escolha:
         case 1:
             produto = (input("Informe o produto que deseja adicionar: "))
